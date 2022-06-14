@@ -1,0 +1,17 @@
+.carre {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+#btn {
+    border: 1px solid black;
+    width: 30px;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+/*style pour alterner*/
+.blue {
+    background-color: blue;
+}
