@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <!-- création de formulaire -->
+    <form id='formulaire'>
+        <fieldset>
+            <label for="prenom">Prénom</label>
+            <input 
+            type="text"
+            id='prenom'
+            placeholder='Votre prénom'
+            >
+            <div class='error invisible'>erreur du prénom</div>
+        </fieldset>
+        <fieldset>
+            <label for="nom">Nom</label>
+            <input 
+            type="text" 
+            id='nom' 
+            placeholder='Votre nom'>
+            <div class='error invisible'>erreur du nom</div>
+        </fieldset>
+        <fieldset>
+            <label for="password">Mot de passe</label>
+            <input 
+            type="password" 
+            id='password' 
+            placeholder='Votre mot de passe'>
+            <div class='error invisible'>erreur du mot de passe</div>
+        </fieldset>
+        <button
+        type='submit'
+        >Envoyer</button>
+    </form>
+
+    <script src='script.js'></script>
+</body>
+</html>

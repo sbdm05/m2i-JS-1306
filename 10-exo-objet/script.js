@@ -11,16 +11,16 @@ const userNom = 'jean';
 const userNomFamille = 'durand';
 const email = 'jean.durand@';
 
-const user1 = {
-  prenom: 'jean',
-  nom: 'durand',
-  age: 20,
-};
-const user2 = {
-  prenom: 'irène',
-  nom: 'marcel',
-  age: 25,
-};
+// const user1 = {
+//   prenom: 'jean',
+//   nom: 'durand',
+//   age: 20,
+// };
+// const user2 = {
+//   prenom: 'irène',
+//   nom: 'marcel',
+//   age: 25,
+// };
 // tableau d'objets
 const tabUsers = [
   {
