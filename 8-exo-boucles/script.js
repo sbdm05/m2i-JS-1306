@@ -18,3 +18,5 @@ imgs.forEach(item => {
     item.style.filter = 'blur(0px)';
   });
 });
+
+tableau.forEach(item)
